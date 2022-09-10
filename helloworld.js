@@ -8,8 +8,8 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('Welcome to my first Web Application!\n')
-}).listen(3333)
+   response.end('My name is Arnetta Knight and Welcome to my first Web Application for SWDV600!\n')
+}).listen(3000)
 
 // Console will print the message
 console.log('Server running')
