@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('My name is Arnetta Knight and Welcome to my first Web Application for SWDV600!\n')
+   response.end('CONNECTION SUCCESSFUL: My name is Arnetta Knight and Welcome to my first Web Application for SWDV600!\n')
 }).listen(3000)
 
 // Console will print the message
